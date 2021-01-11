@@ -1,0 +1,24 @@
+.section_wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 20px;
+}
+
+
+@media (max-width: 650px) {
+	.grid3 h2 {
+		padding-top: 1.5rem;
+	}
+}
+
+@media (min-width: 650px) {
+	.grid3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-column-gap: 10px;
+	}
+
+
+}
